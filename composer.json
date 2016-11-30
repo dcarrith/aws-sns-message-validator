@@ -1,0 +1,40 @@
+{
+	"name": "dcarrith/aws-sns-message-validator",
+	"description": "Amazon SNS Message Validator for Laravel 5.3",
+	"homepage": "https://github.com/dcarrith/aws-sns-message-validator",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "David Carrithers",
+			"email": "dcarrith@gmail.com",
+			"homepage": "https://github.com/dcarrith",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6.4",
+		"illuminate/notifications": "^5.3",
+		"illuminate/support": "^5.1|^5.2|^5.3"
+	},
+	"require-dev": {
+		"mockery/mockery": "^0.9.5",
+		"phpunit/phpunit": "4.*",
+		"aws/aws-php-sns-message-validator": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dcarrith\\AwsSnsMessageValidator\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Dcarrith\\AwsSnsMessageValidator\\Test\\": "tests"
+		}
+	},
+	"scripts": {
+		"test": "vendor/bin/phpunit"
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
