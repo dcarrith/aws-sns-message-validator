@@ -21,6 +21,7 @@
 		"mockery/mockery": "^0.9.5",
 		"phpunit/phpunit": "4.*"
 	},
+	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"Dcarrith\\AwsSnsMessageValidator\\": "src"
